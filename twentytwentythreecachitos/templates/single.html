@@ -1,0 +1,37 @@
+<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+
+<!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"var:preset|spacing|50"}}}} -->
+<main class="wp-block-group" style="margin-top:var(--wp--preset--spacing--50)"><!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"className":"single-header","layout":{"type":"constrained"}} -->
+<div class="wp-block-group single-header"><!-- wp:post-featured-image {"overlayColor":"contrast","dimRatio":50,"align":"wide","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|50","top":"calc(-1 * var(--wp--preset--spacing--50))"}}}} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:post-title {"level":1,"style":{"spacing":{"margin":{"bottom":"0","right":"0","left":"var:preset|spacing|50"}},"typography":{"fontStyle":"normal","fontWeight":"700"}}} /-->
+
+<!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column {"width":"33.33%"} -->
+<div class="wp-block-column" style="flex-basis:33.33%"><!-- wp:post-date {"fontSize":"medium"} /--></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"66.66%"} -->
+<div class="wp-block-column" style="flex-basis:66.66%"><!-- wp:post-terms {"term":"category","fontSize":"medium"} /--></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:post-content {"layout":{"type":"constrained"}} /-->
+
+<!-- wp:template-part {"slug":"post-meta"} /-->
+
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:heading {"textAlign":"center"} -->
+<h2 class="wp-block-heading has-text-align-center">Últimos cachitos</h2>
+<!-- /wp:heading -->
+
+<!-- wp:latest-posts {"postsToShow":6,"displayFeaturedImage":true,"featuredImageAlign":"left","featuredImageSizeWidth":88,"featuredImageSizeHeight":63,"align":"center"} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"comments","tagName":"section"} /--></main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
