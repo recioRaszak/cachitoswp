@@ -42,7 +42,7 @@ h2 {
 .wp-block-post-excerpt__more-link {
     display: inline-block;
     font-size: 11px;
-    text-decoration: none;
+    text-decoration: none!important;
     text-transform: uppercase;
 	font-weight:bold;
 	padding-left:3px;
@@ -63,7 +63,7 @@ h2 {
 		border-color:#fff #fff transparent #fff;
 	}
 	&::after {
-		border-color:transparent #972929 #fff  #fff;
+		border-color:transparent #fff #fff  #fff;
 	}
 	&:hover {
 		padding-left:15px;
